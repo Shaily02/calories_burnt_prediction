@@ -49,5 +49,7 @@ def predict():
     return render_template('index.html', prediction_text='Amount of Claries Burnt: {} Kcal'.format(result))
 
 
-if __name__ == '__main__':
-    app.run()
+
+# commenting for production
+# if __name__ == '__main__':
+#     app.run()
