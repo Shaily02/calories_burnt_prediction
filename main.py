@@ -19,7 +19,7 @@ from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_val_score
 from sklearn.metrics import mean_absolute_error
 import pickle
-from tkinter import *
+# from tkinter import *
 warnings.filterwarnings('ignore')
 
 
