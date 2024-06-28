@@ -46,7 +46,7 @@ def predict():
     result = pipeline_saved.predict(final_data)[0]
     result = f'{result:.2f}'
 
-    return render_template('index.html', prediction_text='Amount of Claries Burnt: {} Kcal'.format(result))
+    return render_template('index.html', prediction_text='Amount of Calories Burnt: {} Kcal'.format(result))
 
 
 
